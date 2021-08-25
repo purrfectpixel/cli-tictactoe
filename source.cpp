@@ -35,5 +35,6 @@ void Game()
 
 int main()
 {
+	cout << "Welcome to rinthetrap's command line tic tac toe game!\n";
 	Game();
 }
