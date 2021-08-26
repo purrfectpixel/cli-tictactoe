@@ -35,6 +35,16 @@ void Game()
 
 int main()
 {
+	int c; 
+	
 	cout << "Welcome to rinthetrap's command line tic tac toe game!\n";
-	Game();
+	do
+	{
+		Game();
+		cout << "\nContinue?" << endl;
+		cin >> c;
+		if(c != 1)
+			return 0;
+	}
+	while(1);
 }
